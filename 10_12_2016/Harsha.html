@@ -1,0 +1,133 @@
+<!-- Document type of the web page -->
+<!DOCTYPE html>
+
+<!-- Language used for html -->
+<html lang="en">
+
+    <!-- Head of the web page -->
+    <head>
+
+        <!-- title of the web page -->
+        <title> Employee Application Form</title>
+
+        <!-- CSS style of the web page -->
+        <style>
+
+        </style>
+
+        <!-- JavaScript of the web page -->
+        <script>
+
+        </script>
+
+        <!--  link is used to link an external source-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+        <!-- base is used to specify the base URL of our web page and is optional-->
+        <base href="/home" />
+
+        <!-- meta is used to describe more meta information -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is the application for employment"/>
+        <meta name="keywords" content="application, form, employment "/>
+        <meta charset="UTF-8" />
+
+    </head>
+
+    <!-- body of the web page -->
+    <body>
+
+    <!--main article for forms-->
+    <article>
+
+        <!--page header-->
+        <header>
+            <h1>Welcome to my website!!</h1>
+            <br />
+        </header>
+
+        <!-- body of the page-->
+        <section>
+
+            <!--form for employee application-->
+            <form name="employeeapplicationForm">
+
+                <!--First Name of the Applicant-->
+                <div>
+                    <label for="firstName"> First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name"/>
+                </div>
+                <br />
+
+                <!--Last Name of the Applicant-->
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" />
+                </div>
+                <br />
+
+                <!--Phone Number of the Applicant-->
+                <div>
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" />
+                </div>
+                <br />
+
+                <!--Gender of the Applicant-->
+                <div>
+                    <label for="gender">Gender:</label>
+                    <div id="gender">
+
+                        <!--male-->
+                        <label for="male">Male:</label>
+                        <input type="radio" id="male" name="gender" value="Male"/>
+
+                        <!--female-->
+                        <label for="female">Female:</label>
+                        <input type="radio" id="female" name="gender" value="Female"/>
+                    </div>
+                </div>
+                <br />
+
+
+                <!--USA Resident-->
+                <div>
+                    <label for="USA Resident">Are you a USA Resident?</label>
+                    <input type="checkbox" id="USA Resident" name="USA Resident" />
+                </div>
+                <br />
+
+                <!--Email address-->
+                <div>
+                    <label for="Email ID">Email ID</label>
+                    <input type="text" id="Email ID" name="Email ID" placeholder="Email ID"/>
+                </div>
+                <br />
+
+                <!--Password-->
+                <div>
+                    <label for="Password">Password</label>
+                    <input type="Password" id="Password" name="Password" placeholder="Password"/>
+                </div>
+                <br />
+
+                <!--button to submit -->
+                <button type="submit" id="submit" class="btn btn-primary">
+                    <span>Submit</span>
+                </button>
+
+                <!--button to reset/cancel-->
+                <button type="reset" id="reset">
+                    <span>Cancel</span>
+                </button>
+            </form>
+
+        </section>
+
+        <!--footer of the page-->
+        <footer>
+            Register  Help
+        </footer>
+    </article>
+    </body>
+</html>
