@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- title of the web page -->
+        <title> Employee Application Form</title>
+        <style>
+
+        </style>
+        <script>
+
+        </script>
+        <link rel="stylesheet" href="Employee Application Form.css"/>
+        <base href="/home" />
+
+        <!-- meta is used to describe more meta information -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is the application for employment"/>
+        <meta name="keywords" content="application, form, employment "/>
+        <meta charset="UTF-8" />
+    </head>
+
+    <!-- body of the web page -->
+    <body>
+        <article>
+            <header>
+                <h2>Welcome to my website!!</h2>
+            </header>
+
+            <!-- body of the page-->
+            <section>
+
+                <!--form for employee application-->
+                <form name="Employee Application Form">
+
+                    <!--First Name of the Applicant-->
+                    <label for="firstName"> First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name"/>
+
+
+                    <!--Last Name of the Applicant-->
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" />
+
+
+                    <!--Phone Number of the Applicant-->
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" />
+
+
+                    <!--Gender of the Applicant-->
+                    <label for="gender" id="gender">Gender:</label>
+
+                        <!--male-->
+                        <label for="male">Male:</label>
+                        <input type="radio" id="male" name="gender" value="Male"/>
+
+                        <!--female-->
+                        <label for="female">Female:</label>
+                        <input type="radio" id="female" name="gender" value="Female"/>
+
+                    <!--USA Resident-->
+                    <label for="USA Resident">Are you a USA Resident?</label>
+                    <input type="checkbox" id="USA Resident" name="USA Resident" />
+
+
+                    <!--Email address-->
+                    <label for="Email ID">Email ID</label>
+                    <input type="text" id="Email ID" name="Email ID" placeholder="Email ID"/>
+
+
+                    <!--Password-->
+                    <label for="Password">Password</label>
+                    <input type="Password" id="Password" name="Password" placeholder="Password"/>
+
+                    <!--button to submit -->
+                    <button type="submit" id="submit" class="button submit">
+                        <span>Submit</span>
+                    </button>
+
+                    <!--button to reset/cancel-->
+                    <button type="reset" id="reset" class="button reset">
+                        <span>Cancel</span>
+                    </button>
+                </form>
+        </section>
+        <footer>
+            Register  Help
+        </footer>
+    </article>
+    </body>
+</html>

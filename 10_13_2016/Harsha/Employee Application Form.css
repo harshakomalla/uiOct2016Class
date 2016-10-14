@@ -1,0 +1,42 @@
+body {
+    background-color: #d3de80;
+}
+
+input {
+    background-color: #d0d2f0;
+}
+
+form {
+    border-radius: 25px;
+    background: #b87575;
+    padding: 20px;
+    width: 250px;
+    height: 480px;
+}
+
+form label {
+    display: block;
+}
+
+label {
+    line-height:30px;
+}
+
+.submit {
+    background-color: #138208;
+    padding: 3px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: #d83127;
+    padding: 3px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
