@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DMV New License Form</title>
+        <link href="../styles/styles.css" rel="stylesheet"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <article>
+            <header>
+                <h1>Welcome to my website!</h1>
+            </header>
+            <section>
+                <form name="newLicenseForm">
+                    <div class="container">
+                        <label for="firstName">Applicant's First Name:</label>
+                        <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
+                    </div>
+                    <br />
+
+                    <div class="container">
+                        <label for="lastName">Applicant's Last Name:</label>
+                        <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name"/>
+                    </div>
+                    <br />
+
+                    <div>
+                        <label for="phoneNumber">Applicant's Phone Number:</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                    </div>
+                    <br />
+
+                    <div>
+                        <label for="gender">Applicant's Gender:</label>
+                        <div id="gender">
+                            <label for="male">Male:</label>
+                            <input type="radio" id="male" name="gender" value="Male"/>
+
+                            <label for="female">Female:</label>
+                            <input type="radio" id="female" name="gender" value="Female"/>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="container">
+                        <label for="seniorCitizen">Is applicant a senior citizen?</label>
+                        <input type="checkbox" id="seniorCitizen" name="seniorCitizen" data-srikar="viswa"/>
+                    </div>
+
+                    <div>
+                        <label for ="PlaceOfBirth">Place Of Birth:</label>
+                        <ul>
+                            <li>India</li>
+                            <li>USA</li>
+                            <li>England</li>
+                            <li>Australia</li>
+                            <li>China</li>
+                        </ul>
+                    </div>
+
+                    <button type="submit" id="submit">
+                        <span>Submit</span>
+                    </button>
+
+                    <button type="reset" id="reset">
+                        <span>Cancel</span>
+                    </button>
+                </form>
+            </section>
+
+            <footer>
+                I'm at the bottom
+            </footer>
+        </article>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+form[name="newLicenseForm"]{
+    border: 2px solid #000;
+    display: inline-block;
+}
+
+form {
+    border: 2px solid #6f0431;
+    border-radius: 25px;
+    align: center;
+    background: #b87575;
+    padding: 20px;
+    width: 300px;
+    height: 550px;
+}
+div{
+    display: inline-block;
+}
+
+label{
+    display: block;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+button[type="reset"]{
+    background-color: #d83127;
+    padding: 3px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button[type="submit"]{
+     background-color: #138208;
+     padding: 3px 8px;
+     text-align: center;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+}
+
+ul{
+    list-style-image: none;
+}
+
+li{
+    display: inline;
+    padding: 10px;`
+}
