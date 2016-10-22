@@ -6,11 +6,10 @@ form[name="newLicenseForm"]{
 form {
     border: 2px solid #6f0431;
     border-radius: 25px;
-   /*align: "center"; */
     background: #b87575;
-   padding: 20px;
+    padding: 20px;
     width: 300px;
-    height: 550px;
+    height: 500px;
     left: 50%;
     top: 50%;
     marign-left: -15%;
@@ -23,9 +22,7 @@ h1{
     text-align: center;
 }
 
-footer{
-    text-align: center;
-}
+
 div{
     display: inline-block;
 }
@@ -63,4 +60,8 @@ ul{
 li{
     display: inline;
     padding: 10px;`
+}
+
+footer{
+    text-align: center;
 }

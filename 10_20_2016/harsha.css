@@ -1,0 +1,119 @@
+form[name="newLicenseForm"]{
+    border: 2px solid #000;
+    display: block;
+    border-radius: 25px;
+    background: #e7efb7;
+    padding: 20px;
+    width: 300px;
+    height: 800px;
+}
+
+h1{
+    color: #9a0e46;
+}
+
+h2{
+    color: #157f06;
+}
+
+label{
+    display: block;
+    line-height:50px;
+    color: #064f52;
+    font-size: 130%;
+}
+
+input[type="text"], [type="number"]{
+    border-color: #6d0e4f;
+    width: 200px;
+}
+
+input[type="text"]:hover {
+    background-color: #d3d5df;
+}
+
+input[type="number"]:hover {
+    background-color: #d3d5df;
+}
+
+nav{
+    background: #efe5d5;
+    display: inline-block;
+}
+
+button{
+    padding: 3px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 12px;
+}
+
+button[type="submit"]{
+     background-color: #9bebe5;
+}
+
+.submit:hover {
+    background-color: #f2e912;
+    border: 3px solid #ee4b15;
+}
+
+button[type="reset"]{
+    background-color: #d83127;
+}
+
+.reset:hover {
+    background-color: #94f93d;
+    border: 3px solid #214602;
+}
+
+ul{
+    list-style-image: none;
+}
+
+li{
+    display: inline;
+    padding: 10px;`
+}
+#nav-heading{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #fff;
+}
+
+#main-heading{
+    position: absolute;
+    top: 0;
+    left: 550px;
+    background: #fff;
+}
+
+#main-footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+}
+
+div, p{
+    display: inline-block;
+}
+
+p ~ span{
+    background-color:#fcc23b;
+}
+
+div > p{
+    background-color: #db6782;
+}
+
+div ~ p{
+    background-color: #cb44ee;
+}
+
+div + p{
+    background-color: #7ef75a;
+}
