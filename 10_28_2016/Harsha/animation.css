@@ -1,0 +1,43 @@
+#main-heading:hover{
+    -webkit-transform: scale3d(3, 1, 2);
+    -moz-transform: scale3d(3, 1, 2);
+    -o-transform: scale3d(3, 1, 2);
+    -ms-transform: scale3d(3, 1, 2);
+    transform: scale3d(3, 1, 2);
+
+    -webkit-transition: all 0.5s cubic-bezier(.36,.47,.84,.27);
+    -moz-transition: all 0.5s cubic-bezier(.36,.47,.84,.27);
+    -o-transition: all 0.5s cubic-bezier(.36,.47,.84,.27);
+    -ms-transition: all 0.5s cubic-bezier(.36,.47,.84,.27);
+    transition: all 0.5s cubic-bezier(.36,.47,.84,.27);
+
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    transition-delay: 1s;
+
+    -webkit-animation: upAndDown 2s infinite;
+    -moz-animation: upAndDown 2s infinite;
+    -o-animation: upAndDown 2s infinite;
+    -ms-animation: upAndDown 2s infinite;
+    animation: upAndDown 2s infinite;
+
+    @keyframes scrollContent{
+        0% {
+            right: -50%;
+        }
+        100% {
+            right: 50%;
+        }
+    }
+
+    .scroll-content{
+        position: relative;
+        -webkit-animation: scrollContent 20s infinite;
+        -moz-animation: scrollContent 20s infinite;
+        -o-animation: scrollContent 20s infinite;
+        -ms-animation: scrollContent 20s infinite;
+        animation: scrollContent 20s infinite;
+    }
+}

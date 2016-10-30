@@ -331,10 +331,10 @@ input[type="email"]:invalid + label{
 
 @keyframes scrollContent{
     0% {
-        right: -50%;
+        right: 50%;
     }
     100% {
-        right: 50%;
+        right: 100%;
     }
 }
 
