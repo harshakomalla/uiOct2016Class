@@ -1,0 +1,122 @@
+
+.border{
+  border-radius: @radius;
+  border: 3px double @black;
+}
+form{
+     padding: 50px;
+     background-color: @lig-green;
+}
+
+
+.light-background{
+    background-color: @white;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+li{
+    float: left;
+    display: inline;
+    padding: 14px;
+}
+
+#nav-heading, #main-footer{
+    width: 100%;
+    background-color: @brown;
+    left: 0;
+    z-index: 999;
+}
+#nav-heading{
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid @black;
+
+}
+
+#main-footer{
+    position: relative;
+    bottom: 0;
+    border-top: 2px solid @black;
+    background: @light-blue;
+}
+
+#nav-footer{
+    position: relative;
+    bottom: -10px;
+
+}
+
+#nav-heading, #main-footer li + li a{
+    border-left: 1px solid @black;
+}
+#nav-heading, #main-footer a{
+    display: block;
+    padding: 2px 4px;
+    background: @light-blue;
+    color: @black;
+    text-decoration: none;
+
+}
+#nav-heading a:hover{
+    background: @pink;
+    color: @black;
+}
+#main-footer a:hover{
+     background: @pink;
+     color: @black;
+}
+
+.box{
+    display: inline-block;
+     border-radius: @radius;
+     border: 1px solid @black;
+}
+figure > img{
+    width: 100%;
+    height : auto;
+    postion: fixed;
+    top: 50px;
+    left: 0;
+}
+
+.breadcrumps{
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+ol{
+    marign-top: 0;
+    display: inline;
+}
+p{
+    font-weight: bold;
+    font-size: 16px;
+}
+b{
+    display: block;
+}
+#submit {
+    background-color: @green;
+    padding: 3px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#reset {
+    background-color: @red;
+    padding: 3px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h4{
+    padding: 5px 5px 5px 5px;
+}
