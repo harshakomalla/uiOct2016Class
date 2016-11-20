@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
 
-        <title>Home</title>
+        <title>My Profile</title>
 
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta name="keywords" content="application, fulltime, job, web developer" />
@@ -13,7 +13,7 @@
     </head>
     <body>
         <article>
-            <header id="nav-heading">
+            <header class="contains">
                 <nav>
                     <ul>
                         <li>
@@ -40,75 +40,64 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="rows">
+                    <figure class="column-xs-12 column-sm-12 column-md-12 column-lg-12">
+                        <img src="../images/logo2.jpg">
+                    </figure>
+                </div>
             </header>
 
             <section>
-                <header class="contains">
-                    <div class="rows">
-                        <figure class="column-xs-12 column-sm-12 column-md-12 column-lg-12">
-                            <img src="../images/logo2.jpg">
-                        </figure>
-                    </div>
-                </header>
-
                 <article>
-                   <!-- <div>
-                        <h4>
-                            <a href="Home.html">Home </a> / My_Profile
-                        </h4>
-                    </div> -->
+                    <header></header>
+                    <section>
+                        <ol class="breadcrumb">
+                            <li>
+                                <a href="Home.html">Home</a>
+                            </li>
 
-                    <p>
-                    <ol class="breadcrumb">
-                        <li>
-                            <a href="Home.html">Home</a>
-                        </li>
+                            <li>/  My_Profile</li>
+                        </ol>
+                        <div class="box column-xs-12 column-sm-12 column-md-12 column-lg-12 ">
+                            <form name="Register">
+                                <div>
+                                    <label for="fullName">Full Name </label>
+                                    <input type="text" id="fullName" name="fullName" required/>
+                                </div>
+                                <br />
+                                <div>
+                                    <label for="email">Email </label>
+                                    <input type="email" id="email" name="email" required/>
+                                </div>
+                                <br />
+                                <div>
+                                    <label for="password">Password</label>
+                                    <input type="password" id="password" name="password" required/>
+                                </div>
+                                <br />
+                                <div>
+                                    <label for="phoneNumber">Phone Number</label>
+                                    <input type="text" id="phoneNumber" name="phoneNumber" required/>
+                                </div>
+                                <br />
+                                <div>
+                                    <label for="skills">Skills</label>
+                                    <input type="text" id="skills" name="skills" required/>
+                                </div>
+                                <br />
 
-                        <li>/  My_Profile</li>
-                    </ol>
-                    </p>
+                                <button type="submit" id="submit">
+                                    <span>Submit</span>
+                                </button>
 
-                    <div class="box">
-                        <form name="Register">
-                            <div>
-                                <label for="fullName">Full Name </label>
-                                <input type="text" id="fullName" name="fullName" required/>
-                            </div>
-                            <br />
-                            <div>
-                                <label for="email">Email </label>
-                                <input type="email" id="email" name="email" required/>
-                            </div>
-                            <br />
-                            <div>
-                                <label for="password">Password</label>
-                                <input type="password" id="password" name="password" required/>
-                            </div>
-                            <br />
-                            <div>
-                                <label for="phoneNumber">Phone Number</label>
-                                <input type="text" id="phoneNumber" name="phoneNumber" required/>
-                            </div>
-                            <br />
-                            <div>
-                                <label for="skills">Skills</label>
-                                <input type="text" id="skills" name="skills" required/>
-                            </div>
-                            <br />
+                                <button type="reset" id="reset">
+                                    <span>Cancel</span>
+                                </button>
 
-                            <button type="submit" id="submit">
-                                <span>Submit</span>
-                            </button>
-
-                            <button type="reset" id="reset">
-                                <span>Cancel</span>
-                            </button>
-
-                        </form>
-                    </div>
-                </article>
-
-                <footer id="nav-footer">
+                            </form>
+                        </div>
+                </section>
+                    <footer id="nav-footer">
                     <nav>
                         <label>
                             <b> Follow Us </b>
@@ -145,7 +134,7 @@
                     </nav>
 
                 </footer>
-
+                </article>
             </section>
 
             <footer id="main-footer">
@@ -178,7 +167,6 @@
                     </ul>
                 </nav>
             </footer>
-
         </article>
     </body>
 </html>

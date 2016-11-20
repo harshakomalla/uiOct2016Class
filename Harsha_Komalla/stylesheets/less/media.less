@@ -1,20 +1,15 @@
-@media only screen and (max-width: 768px){
-    .container{
-        width: 100%;
-    }
+@media only screen (min-width: 350px) {
+	.responsive-mixin(1; xs);
 }
-@media only screen and(min-width: 768px) {
-  .contains {
-    width: 660px;
-  }
+
+@media only screen (min-width: 450px) {
+  	.responsive-mixin(1; sm);
 }
-@media only screen and(min-width: 1024px) {
-  .contains {
-    width: 990px;
-  }
+
+@media only screen (min-width: 800px) {
+	.responsive-mixin(1; md);
 }
-@media only screen and(min-width: 1200px) {
-  .contains {
-    width: 1170px;
-  }
+
+@media only screen (min-width: 1200px) {
+	.responsive-mixin(1; lg);
 }

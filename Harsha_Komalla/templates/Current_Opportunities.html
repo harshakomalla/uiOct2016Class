@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
 
-        <title>Home</title>
+        <title>Current Opportunities</title>
 
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta name="keywords" content="application, fulltime, job, web developer" />
@@ -13,7 +13,7 @@
     </head>
     <body>
         <article>
-            <header id="nav-heading">
+            <header class="contains">
                 <nav>
                     <ul>
                         <li>
@@ -40,24 +40,16 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="rows">
+                    <figure class="column-xs-12 column-sm-12 column-md-12 column-lg-12">
+                        <img src="../images/logo2.jpg">
+                    </figure>
+                </div>
             </header>
-
             <section>
-                <header class="contains">
-                    <div class="rows">
-                        <figure class="column-xs-12 column-sm-12 column-md-12 column-lg-12">
-                            <img src="../images/logo2.jpg">
-                        </figure>
-                    </div>
-                </header>
-
-                <section>
-                   <!-- <div>
-                        <h4>
-                            <a href="Home.html"> Home </a> / <a href="Careers.html"> Careers </a>/ Opportunities
-                        </h4>
-                    </div> -->
-                    <p>
+                <article>
+                    <header></header>
+                    <section>
                         <ol class="breadcrumb">
                             <li>
                                 <a href="Home.html">Home</a>
@@ -67,75 +59,72 @@
                             </li>
                             <li>/  Opportunities</li>
                         </ol>
-                    </p>
 
-                    <div class="box">
-                        <form name="search">
-                            <h3>Current Opportunities</h3>
-                            <div>
-                                <label for="keyword">Keyword: </label>
-                                <input type="text" id="keyword" name="keyword" required/>
-                            </div>
-                            <br />
+                        <div class="box column-xs-12 column-sm-12 column-md-12 column-lg-12 ">
+                            <form name="search">
+                                <h3>Current Opportunities</h3>
+                                <div>
+                                    <label for="keyword">Keyword: </label>
+                                    <input type="text" id="keyword" name="keyword" required/>
+                                </div>
+                                <br />
 
-                            <div>
-                                <label for="city">City:</label>
-                                <input type="text" id="city" name="city" required/>
-                            </div>
-                            <br />
+                                <div>
+                                    <label for="city">City:</label>
+                                    <input type="text" id="city" name="city" required/>
+                                </div>
+                                <br />
 
-                            <button type="submit" id="submit">
-                                <span>Submit</span>
-                            </button>
+                                <button type="submit" id="submit">
+                                    <span>Submit</span>
+                                </button>
 
-                            <button type="reset" id="reset">
-                                <span>Cancel</span>
-                            </button>
+                                <button type="reset" id="reset">
+                                    <span>Cancel</span>
+                                </button>
 
-                        </form>
-                    </div>
-                </section>
+                            </form>
+                        </div>
+                    </section>
+                    <footer id="nav-footer">
+                        <nav>
+                            <label>
+                                <b> Follow Us </b>
+                            </label>
 
-                <footer id="nav-footer">
-                    <nav>
-                        <label>
-                            <b> Follow Us </b>
-                        </label>
+                            <li class="linkedin">
+                                <a target="_blank" title="follow me on lindedin" href="http://www.linkedin.com">
+                                    <img src="../images/linkedin.png" width="40px" height="40px"></a>
 
-                        <li class="linkedin">
-                            <a target="_blank" title="follow me on lindedin" href="http://www.linkedin.com">
-                                <img src="../images/linkedin.png" width="40px" height="40px"></a>
+                            </li>
 
-                        </li>
+                            <li class="facebook">
+                                <a target="_blank" title="follow me on facebook" href="http://www.facebook.com">
+                                    <img src="../images/facebook.png" width="40px" height="40px"></a>
+                            </li>
 
-                        <li class="facebook">
-                            <a target="_blank" title="follow me on facebook" href="http://www.facebook.com">
-                                <img src="../images/facebook.png" width="40px" height="40px"></a>
-                        </li>
+                            <li class="twitter">
+                                <a target="_blank" title="follow me on twitter" href="http://www.twitter.com">
+                                    <img src="../images/twitter.png" width="40px" height="40px"></a>
+                            </li>
 
-                        <li class="twitter">
-                            <a target="_blank" title="follow me on twitter" href="http://www.twitter.com">
-                                <img src="../images/twitter.png" width="40px" height="40px"></a>
-                        </li>
+                            <li class="plusgoogle">
+                                <a target="_blank" title="follow me on plusgoogle" href="http://www.plusgoogle.com">
+                                    <img src="../images/plus google.jpg" width="40px" height="40px"></a>
+                            </li>
 
-                        <li class="plusgoogle">
-                            <a target="_blank" title="follow me on plusgoogle" href="http://www.plusgoogle.com">
-                                <img src="../images/plus google.jpg" width="40px" height="40px"></a>
-                        </li>
+                            <li class="youtube">
+                                <a target="_blank" title="follow me on youtube" href="http://www.youtube.com">
+                                    <img src="../images/youtube.png" width="40px" height="40px"></a>
+                            </li>
+                            <br/><br/>
+                            <br/>
+                            <br/>
+                        </nav>
 
-                        <li class="youtube">
-                            <a target="_blank" title="follow me on youtube" href="http://www.youtube.com">
-                                <img src="../images/youtube.png" width="40px" height="40px"></a>
-                        </li>
-                        <br/><br/>
-                        <br/>
-                        <br/>
-                    </nav>
-
-                </footer>
-
+                    </footer>
+                </article>
             </section>
-
             <footer id="main-footer">
                 <nav>
 
@@ -166,7 +155,6 @@
                     </ul>
                 </nav>
             </footer>
-
         </article>
     </body>
 </html>
