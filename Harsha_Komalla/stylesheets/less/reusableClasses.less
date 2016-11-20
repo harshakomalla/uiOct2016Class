@@ -1,13 +1,12 @@
-
 .border{
   border-radius: @radius;
   border: 3px double @black;
 }
+
 form{
-     padding: 50px;
+     padding: 5px;
      background-color: @lig-green;
 }
-
 
 .light-background{
     background-color: @white;
@@ -17,6 +16,7 @@ ul{
     list-style-type: none;
     display: inline-block;
 }
+
 li{
     float: left;
     display: inline;
@@ -29,11 +29,11 @@ li{
     left: 0;
     z-index: 999;
 }
+
 #nav-heading{
     position: fixed;
     top: 0;
     border-bottom: 2px solid @black;
-
 }
 
 #main-footer{
@@ -41,24 +41,29 @@ li{
     bottom: 0;
     border-top: 2px solid @black;
     background: @light-blue;
+
+    nav{
+        ul{
+            li{
+                a{
+                    border-left: 1px solid @black;
+                }
+            }
+        }
+    }
 }
 
 #nav-footer{
     position: relative;
     bottom: -10px;
-
 }
 
-#nav-heading, #main-footer li + li a{
-    border-left: 1px solid @black;
-}
 #nav-heading, #main-footer a{
     display: block;
     padding: 2px 4px;
     background: @light-blue;
     color: @black;
     text-decoration: none;
-
 }
 #nav-heading a:hover{
     background: @pink;
@@ -74,32 +79,37 @@ li{
      border-radius: @radius;
      border: 1px solid @black;
 }
-figure > img{
-    width: 100%;
-    height : auto;
-    postion: fixed;
-    top: 50px;
-    left: 0;
+figure{
+    > img{
+        width: 100%;
+        height : auto;
+        postion: fixed;
+        top: 50px;
+        left: 0;
+     }
 }
 
 .breadcrumps{
     padding: 8px 15px;
     margin-bottom: 20px;
     list-style: none;
-    background-color: #f5f5f5;
-    border-radius: 4px;
+    cursor: pointer;
 }
+
 ol{
     marign-top: 0;
     display: inline;
 }
+
 p{
     font-weight: bold;
     font-size: 16px;
 }
+
 b{
     display: block;
 }
+
 #submit {
     background-color: @green;
     padding: 3px 8px;

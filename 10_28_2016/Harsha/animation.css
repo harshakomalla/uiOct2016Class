@@ -25,10 +25,10 @@
 
     @keyframes scrollContent{
         0% {
-            right: -50%;
+            right: 15%;
         }
         100% {
-            right: 50%;
+            right: 100%;
         }
     }
 

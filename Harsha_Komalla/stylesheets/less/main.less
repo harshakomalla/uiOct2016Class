@@ -3,6 +3,8 @@ body{
     font-size: 18px;
 }
 
-.header{
-    &:extend(.border, .light-background);
+.header, .footer{
+    &:extend{
+    .border;
+    }
 }
