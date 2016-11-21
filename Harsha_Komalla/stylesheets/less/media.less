@@ -1,15 +1,15 @@
-@media only screen (min-width: 350px) {
+@media only screen (max-width: 350px) {
 	.responsive-mixin(1; xs);
 }
 
-@media only screen (min-width: 450px) {
+@media only screen (max-width: 450px) and (min-width: 350px) {
   	.responsive-mixin(1; sm);
 }
 
-@media only screen (min-width: 800px) {
+@media only screen (max-width: 800px) and (min-width: 450px) {
 	.responsive-mixin(1; md);
 }
 
-@media only screen (min-width: 1200px) {
+@media only screen (min-width: 1200px){
 	.responsive-mixin(1; lg);
 }
