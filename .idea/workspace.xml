@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09798d5d-4543-43ad-96f6-210ad5b42994" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Harsha_Komalla/stylesheets/less/media.less" afterPath="$PROJECT_DIR$/Harsha_Komalla/stylesheets/less/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Harsha_Komalla/stylesheets/less/reusableClasses.less" afterPath="$PROJECT_DIR$/Harsha_Komalla/stylesheets/less/reusableClasses.less" />
-    </list>
+    <list default="true" id="09798d5d-4543-43ad-96f6-210ad5b42994" name="Default" comment="" />
     <ignored path="uiOct2016Class.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -582,8 +578,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1370" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
