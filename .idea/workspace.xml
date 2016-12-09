@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09798d5d-4543-43ad-96f6-210ad5b42994" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/12_06_2016-Strings/Harsha/harsha.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/12_06_2016-Strings/Harsha/strings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/harsha.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/loops.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/loops.js" afterPath="$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/loops.js" />
     </list>
     <ignored path="uiOct2016Class.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +24,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="harsha.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/12_06_2016-Strings/Harsha/harsha.html">
+        <entry file="file://$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/harsha.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -37,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javascript/12_06_2016-Strings/Harsha/strings.js">
+      <file leaf-file-name="loops.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/loops.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="439">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/12_07_2016-Loops/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-838">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,6 +117,7 @@
         <option value="$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/harsha.html" />
         <option value="$PROJECT_DIR$/javascript/12_06_2016-Strings/Harsha/harsha.html" />
         <option value="$PROJECT_DIR$/javascript/12_06_2016-Strings/Harsha/strings.js" />
+        <option value="$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/loops.js" />
       </list>
     </option>
   </component>
@@ -209,24 +216,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Harsha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uiOct2016Class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uiOct2016Class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="12_06_2016-Strings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -637,15 +626,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Harsha_Komalla/stylesheets/styles/responsive.css" />
-    <entry file="file://$PROJECT_DIR$/11_09_2016/assignment.txt" />
-    <entry file="file://$PROJECT_DIR$/Harsha_Komalla/stylesheets/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Harsha_Komalla/stylesheets/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -819,32 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/loops.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/harsha.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/12_05_2016-Closures/Harsha/closures.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/12_06_2016-Strings/Harsha/harsha.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -869,6 +827,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/12_06_2016-Strings/Harsha/harsha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/12_07_2016-Loops/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/harsha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/12_07_2016-Loops/loops.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/12_07_2016-Loops/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-838">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/12_07_2016-Loops/Harsha/loops.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
       </provider>
